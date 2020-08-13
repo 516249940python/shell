@@ -11,6 +11,7 @@ fi
 
 ## start to use besttrace
 
+## /^\s/  匹配任何空白字符,包括空格、制表符、换页符等等。等价于[ \f\n\r\t\v]
 next() {
     printf "%-70s\n" "-" | sed 's/\s/-/g'
 }
